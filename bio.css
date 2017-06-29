@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html, section {
+    margin: 0;
+    padding: 0;
+}
+
+section p:first-child {
+    margin-top: 0;
+}
+header {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin:0;
+    background-color:rgba(255,187,0,0.3);
+}
+aside {
+    float: left;
+    width: 10em;
+    min-height: 50em;
+    background-color: rgba(0,0,0,0);
+}
+
+h1, footer {
+    text-align: center;
+    color: azure;
+    width: auto;
+    line-height: inherit;
+    border-radius: 2px;
+}
+nav {
+    background-color: lightyellow;
+    margin: 5px 5px;
+    padding: 5px;
+    min-height: 1.5em;
+    text-align: center;
+}
+
+a:hover {
+    background-color: rgba(255,255,255,0.5);
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 2px;
+    margin: 1em;
+}
+.book_nav {
+    margin: 0.5em;
+    float: left;
+    background-color: lightgoldenrodyellow;
+    min-height: 735px;
+}
+.book_nav a {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 2px;
+    margin: 1em;
+}
+
+body {
+    color: white;
+    text-align: center;
+    width: auto;
+    line-height: inherit;
+    opacity: 1;
+    margin-bottom: auto;
+    background-image: url(automn.jpg);
+
+}
+header, footer, #content {
+    background-color: rgba(0,0,0,0.3);
+}
+
+#content {
+    min-height: 700px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+#boy {
+    min-height: 700px;
+}
+
+     
